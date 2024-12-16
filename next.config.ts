@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
         pathname: "/**", // Allows all paths under this hostname
       },
     ],
-    domains : ['images.unsplash.com']
+    domains : ['images.unsplash.com','images.pexels.com']
   },
 };
 

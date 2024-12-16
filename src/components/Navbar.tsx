@@ -11,7 +11,7 @@ function Navbar({ className }: { className?: string }) {
     <div>
       <div
         className={cn(
-          "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 text-xl hidden md:block",
+          "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 text-sm md:text-xl ",
           className
         )}
       >
@@ -25,10 +25,10 @@ function Navbar({ className }: { className?: string }) {
           </Link>
           <MenuItem setActive={setActive} active={active} item="Courses">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="#">Strings of Harmony </HoveredLink>
-              <HoveredLink href="#">Piano Pathways</HoveredLink>
-              <HoveredLink href="#">Guitar Groove Academy</HoveredLink>
-              <HoveredLink href="#">The Bow and Strings</HoveredLink>
+              <HoveredLink href="/courses">Strings of Harmony </HoveredLink>
+              <HoveredLink href="/courses">Piano Pathways</HoveredLink>
+              <HoveredLink href="/courses">Guitar Groove Academy</HoveredLink>
+              <HoveredLink href="/courses">The Bow and Strings</HoveredLink>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Instruments">
@@ -36,25 +36,25 @@ function Navbar({ className }: { className?: string }) {
               <ProductItem
                 title="Harmony"
                 href="https://algochurn.com"
-                src="https://assets.aceternity.com/demos/algochurn.webp"
+                src="https://images.pexels.com/photos/9005462/pexels-photo-9005462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 description="Learn Guitar/Violin/Piano Mastery"
               />
               <ProductItem
                 title="Piano"
                 href="https://tailwindmasterkit.com"
-                src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
+                src="https://images.pexels.com/photos/1246437/pexels-photo-1246437.jpeg?auto=compress&cs=tinysrgb&w=800"
                 description="From Beginner to Virtuoso"
               />
               <ProductItem
                 title="Guitar"
                 href="https://gomoonbeam.com"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                src="https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&w=800"
                 description="Acoustic and Electric Guitar Lessons"
               />
               <ProductItem
                 title="Violin"
                 href="https://userogue.com"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
+                src="https://images.pexels.com/photos/34221/violin-musical-instrument-music-sound.jpg?auto=compress&cs=tinysrgb&w=800"
                 description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
               />
             </div>
@@ -63,7 +63,7 @@ function Navbar({ className }: { className?: string }) {
             <MenuItem
               setActive={setActive}
               active={active}
-              item="Contact Us"
+              item="Contact"
             ></MenuItem>
           </Link>
         </Menu>
