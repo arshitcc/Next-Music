@@ -1,6 +1,4 @@
 import { HeroSection } from "@/components/HeroSection";
-import { div } from "framer-motion/client";
-import Image from "next/image";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyUs from "@/components/WhyUs";
 import Testimonials from "@/components/Testimonials";
